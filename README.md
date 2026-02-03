@@ -13,7 +13,7 @@
 ### Step 2: Install Required Packages
 Install KVM and related tools:
 ```bash
-sudo pacman -S qemu libvirt virt-manager ebtables dnsmasq bridge-utils
+sudo pacman -S qemu libvirt virt-manager nftables dnsmasq libguestfs
 ```
 
 ---
